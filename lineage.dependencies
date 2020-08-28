@@ -1,0 +1,6 @@
+[
+ {
+   "repository":"android_device_lge_cv1-common",
+   "target_path":"device/lge/cv1-common"
+ }
+]
