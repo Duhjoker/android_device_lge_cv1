@@ -20,7 +20,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
 $(call inherit-product-if-exists, vendor/lge/cv1/cv1-vendor.mk)
 
 # common msm8937
-$(call inherit-product, device/lge/cv1-common/lineage_cv1.mk)
+$(call inherit-product, device/lge/cv1-common/lineage.mk)
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
