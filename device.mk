@@ -20,7 +20,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
 $(call inherit-product-if-exists, vendor/lge/cv1/cv1-vendor.mk)
 
 # common msm8937
-$(call inherit-product, device/lge/cv1-common/lineage_cv1.mk)
+$(call inherit-product, device/lge/cv1-common/cv1.mk)
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
@@ -40,23 +40,24 @@ TARGET_SCREEN_WIDTH := 720
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/audio/mixer_paths.xml:system/etc/mixer_paths.xml
 
-
-# GestureHandler
+# Fingerprint
 PRODUCT_PACKAGES += \
-    GestureHandler
+    fingerprintd
+
+# FM
+PRODUCT_PACKAGES += \
+    FM2 \
+    FMRecord \
+    libqcomfm_jni
 
 # Init
- PRODUCT_PACKAGES += \
-    init.variant.rc
+PRODUCT_PACKAGES += \
+    fstab.qcom
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/sensors/hals.conf:system/etc/sensors/hals.conf \
     $(LOCAL_PATH)/configs/sensors/sensor_def_common.conf:system/etc/sensors/sensor_def_common.conf \
     $(LOCAL_PATH)/configs/sensors/sensor_def_variable.conf:system/etc/sensors/sensor_def_variable.conf
-
-# IRSC
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/configs/sec_config:system/etc/sec_config
 
 # Thermal Configuration
 PRODUCT_COPY_FILES += \

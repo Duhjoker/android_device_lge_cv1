@@ -1,6 +1,5 @@
 # Camera
 camera.hal1.packagelist=com.skype.raider,com.google.android.talk
-persist.camera.HAL3.enabled=1
 
 # properties for limiting preview size in camera
 camera.display.umax=1920x1080
@@ -33,4 +32,4 @@ ro.sys.fw.trim_cache_percent=100
 ro.sys.fw.trim_enable_memory=2147483648
 
 # Bluetooth
-ro.bt.bdaddr_path="/data/misc/bluetooth/bdaddr_loader"
+ro.bt.bdaddr_path="/data/misc/bluetooth/bdaddr"

@@ -1,8 +1,8 @@
-Device Tree for LG Aristo 2
+Device Tree for LG Aristo 2 Plus
 ==============================================
 
-The Aristo 2 (codenamed _"cv1"_) is a mid-range smartphone from LG Electronics.
-It was released on December, 2016
+The Aristo 2 Plus (codenamed _"cv1"_) is a mid-range smartphone from LG Electronics.
+It was released on December, 2017.
 
 Basic   | Spec Sheet
 -------:|:-------------------------
@@ -11,12 +11,11 @@ Chipset | Qualcomm MSM8917 Snapdragon 425
 GPU     | Adreno 308
 Memory  | 2 GB RAM
 Android Version | 7.0
-Storage | 16 GB
-MicroSD | Up to 256 GB
+Storage | 32 GB
+MicroSD | Up to 32 GB
 Battery | Removable Li-Ion 2700mAh battery
 Display | 720 x 1280 pixels, 5.3 inches (~277 ppi pixel density)
 Camera  | 13 MP, autofocus, flash LED
 
-
-
+Copyright 2017 - The Lineage Android Operating System.
 

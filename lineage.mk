@@ -15,21 +15,26 @@
 #
 
 # Inherit framework first
+$(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-# Inherit from lv517 device
+# Inherit from cv1 device
 $(call inherit-product, device/lge/cv1/device.mk)
 
 # Inherit some common LineageOS stuff.
 $(call inherit-product, vendor/cm/config/common_full_phone.mk)
+$(call inherit-product, vendor/cm/config/telephony.mk)
 
 # Set those variables here to overwrite the inherited values.
 BOARD_VENDOR := lge
-PRODUCT_DEVICE := lineage_cv1
+PRODUCT_DEVICE := cv1
 PRODUCT_NAME := lineage_cv1
 PRODUCT_BRAND := lge
-PRODUCT_MODEL := LG Aristo 2
+PRODUCT_MODEL := LG Aristo 2 Plus
 PRODUCT_MANUFACTURER := lge
+
+# Overlays (inherit after vendor/cm to ensure we override it)
+DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 
 PRODUCT_GMS_CLIENTID_BASE := android-lge
 
