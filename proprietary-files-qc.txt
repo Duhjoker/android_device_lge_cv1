@@ -118,9 +118,6 @@ etc/cne/wqeclient/VZW/VZW_profile6.xml
 etc/permissions/cneapiclient.xml
 etc/permissions/com.quicinc.cne.xml
 etc/permissions/ConnectivityExt.xml
-framework/cneapiclient.jar
-framework/com.quicinc.cne.jar
-framework/ConnectivityExt.jar
 vendor/lib/libcne.so
 vendor/lib/libcneapiclient.so
 vendor/lib/libcneqmiutils.so
@@ -129,15 +126,11 @@ vendor/lib/libwqe.so
 vendor/lib/libxml.so
 
 # DPM
--priv-app/dpmserviceapp/dpmserviceapp.apk
 bin/dpmd
 etc/dpm/dpm.conf
 etc/dpm/nsrm/NsrmConfiguration.xml
 etc/permissions/com.qti.dpmframework.xml
 etc/permissions/dpmapi.xml
-framework/com.qti.dpmframework.jar
-framework/dpmapi.jar
-framework/tcmclient.jar
 vendor/lib/libdpmctmgr.so
 vendor/lib/libdpmfdmgr.so
 vendor/lib/libdpmframework.so
@@ -230,7 +223,6 @@ vendor/lib/libOmxWmaDec.so
 vendor/lib/libwms.so
 
 # Network
--priv-app/QtiTetherService/QtiTetherService.apk
 vendor/lib/libconnctrl.so
 vendor/lib/libcsm_data.so
 vendor/lib/libQtiTether.so
@@ -262,7 +254,6 @@ vendor/lib/libthermalclient.so
 vendor/lib/libthermalioctl.so
 
 # Time services
--app/TimeService/TimeService.apk
 bin/time_daemon
 vendor/lib/libTimeService.so
 -vendor/lib/libtime_genoff.so
