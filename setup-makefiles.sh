@@ -42,8 +42,6 @@ setup_vendor "$DEVICE" "$VENDOR" "$CM_ROOT"
 # Copyright headers and guards
 write_headers
 
-write_makefiles "$MY_DIR"/proprietary-files-qc.txt
-
 write_makefiles "$MY_DIR"/proprietary-files.txt
 
 # Finish

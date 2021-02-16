@@ -14,13 +14,13 @@
 # limitations under the License.
 #
 
-# inherit from common sd4xx-common
+# inherit from common cv1-common
 include device/lge/cv1-common/BoardConfigCommon.mk
 
 LOCAL_PATH := device/lge/cv1
 
 # kernel
-TARGET_KERNEL_CONFIG := lineage_lv517_defconfig
+TARGET_KERNEL_CONFIG := cv1_lao_com_arm64_defconfig
 
 # Filesystem
 BOARD_FLASH_BLOCK_SIZE := 131072 # (BOARD_KERNEL_PAGESIZE * 64)
