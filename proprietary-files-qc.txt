@@ -96,7 +96,6 @@ vendor/lib/soundfx/libqcreverb.so
 vendor/lib/soundfx/libqcvirt.so
 
 # CNE
--priv-app/CNEService/CNEService.apk
 bin/cnd
 etc/cne/andsfCne.xml
 etc/cne/SwimConfig.xml
