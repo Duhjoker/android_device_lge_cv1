@@ -317,8 +317,6 @@ etc/permissions/com.qualcomm.location.xml
 etc/permissions/izat.xt.srv.xml
 etc/cacert_location.pem
 etc/xtra_root_cert.pem
-framework/com.qti.location.sdk.jar
-framework/izat.xt.srv.jar
 lib/hw/gps.default.so
 lib64/libloc_api_v02.so
 lib64/libloc_ds_api.so
@@ -328,7 +326,6 @@ lib/libloc_core.so
 lib/libloc_eng.so
 lib/libloc_pla.so
 lib/libloc_stub.so
--priv-app/com.qualcomm.location/com.qualcomm.location.apk
 vendor/lib/hw/flp.default.so
 vendor/lib/libalarmservice_jni.so
 vendor/lib/libasn1cper.so
