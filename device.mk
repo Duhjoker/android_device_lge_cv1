@@ -45,12 +45,12 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/audio/mixer_paths.xml:system/etc/mixer_paths.xml
 
 # Fingerprint
-PRODUCT_PACKAGES += \
-    fingerprintd
+# PRODUCT_PACKAGES += \
+#     fingerprintd
 
 # LineageActions
-PRODUCT_PACKAGES += \
-    LineageActions
+#  PRODUCT_PACKAGES += \
+#    LineageActions
 
 # Init
  PRODUCT_PACKAGES += \

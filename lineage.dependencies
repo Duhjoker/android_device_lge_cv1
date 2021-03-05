@@ -4,9 +4,4 @@
    "target_path":"device/lge/cv1-common"
  }
 ]
-[
- {
-   "repository":"android_packages_resources_devicesettings",
-   "target_path":"/packages/resources/devicesettings/"
- }
-]
+
