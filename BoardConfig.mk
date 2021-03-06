@@ -63,6 +63,9 @@ TARGET_RECOVERY_FSTAB := $(LOCAL_PATH)/rootdir/fstab.qcom
 #TARGET_USERIMAGES_USE_F2FS := true
 #TW_NEW_ION_HEAP := true
 
+# To enable system image
+# BOARD_BUILD_SYSTEM_ROOT_IMAGE := true
+
 # Properties
 TARGET_SYSTEM_PROP += $(LOCAL_PATH)/system.prop
 
