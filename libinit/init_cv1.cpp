@@ -50,7 +50,7 @@ void init_target_properties()
     std::string buf;
 
     std::string product = GetProperty("ro.product.name", "");
-    if (product.find("lv517") == std::string::npos)
+    if (product.find("cv1") == std::string::npos)
         return;
 
     fin.open("/proc/cmdline");
@@ -62,6 +62,6 @@ void init_target_properties()
     if (buf.find("S88536CA2") != std::string::npos) {
         property_set("ro.product.model", "NULL");
     } else {
-        property_set("ro.product.model", "LG K20 Plus");
+        property_set("ro.product.model", "LM-X212(G)");
     }
 }

@@ -23,7 +23,7 @@ $(call inherit-product-if-exists, vendor/lge/cv1/cv1-vendor.mk)
 $(call inherit-product, device/lge/cv1-common/cv1.mk)
 
 # Overlays
-DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
+# DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 
 # Screen density
 PRODUCT_AAPT_CONFIG := normal
