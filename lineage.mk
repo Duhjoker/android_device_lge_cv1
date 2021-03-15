@@ -16,21 +16,20 @@
 
 # Inherit framework first
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
-# $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
-$(call inherit-product, $(SRC_TARGET_DIR)/product/halium.mk)
+$(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Inherit from cv1 device
 $(call inherit-product, device/lge/cv1/device.mk)
 
 # Inherit some common LineageOS stuff.
-# $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # Set those variables here to overwrite the inherited values.
 BOARD_VENDOR := lge
 PRODUCT_DEVICE := cv1
 PRODUCT_NAME := lineage_cv1
 PRODUCT_BRAND := lge
-PRODUCT_MODEL := Aristo 2 plus
+PRODUCT_MODEL := LMX212TA
 PRODUCT_MANUFACTURER := lge
 
 PRODUCT_GMS_CLIENTID_BASE := android-lge

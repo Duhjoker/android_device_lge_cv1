@@ -62,6 +62,6 @@ void init_target_properties()
     if (buf.find("S88536CA2") != std::string::npos) {
         property_set("ro.product.model", "NULL");
     } else {
-        property_set("ro.product.model", "LM-X212(G)");
+        property_set("ro.product.model", "LG LMX212TA");
     }
 }

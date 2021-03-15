@@ -27,7 +27,7 @@ LOCAL_CFLAGS := -Wall
 
 LOCAL_MODULE := libinit_lv517
 LOCAL_MODULE_TAGS := optional
-LOCAL_SRC_FILES := init_lv517.cpp
+LOCAL_SRC_FILES := init_cv1.cpp
 
 LOCAL_STATIC_LIBRARIES := libbase
 
