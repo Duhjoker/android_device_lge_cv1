@@ -20,7 +20,7 @@ include device/lge/cv1-common/BoardConfigCommon.mk
 LOCAL_PATH := device/lge/cv1
 
 # kernel
-TARGET_KERNEL_CONFIG := cv1_lao_com_arm64_defconfig
+TARGET_KERNEL_CONFIG := cv1_lao_com-hal_defconfig
 
 # Filesystem
 BOARD_FLASH_BLOCK_SIZE := 131072 # (BOARD_KERNEL_PAGESIZE * 64)
