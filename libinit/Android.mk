@@ -25,7 +25,7 @@ LOCAL_C_INCLUDES := \
 
 LOCAL_CFLAGS := -Wall
 
-LOCAL_MODULE := libinit_lv517
+LOCAL_MODULE := libinit_cv1
 LOCAL_MODULE_TAGS := optional
 LOCAL_SRC_FILES := init_cv1.cpp
 

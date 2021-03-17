@@ -2,7 +2,7 @@ Device Tree for LG Aristo 2 Plus
 ==============================================
 
 The Aristo 2 Plus (codenamed _"cv1"_) is a mid-range smartphone from LG Electronics.
-It was released on December, 2017.
+It was released on December, 2016.
 
 Basic   | Spec Sheet
 -------:|:-------------------------

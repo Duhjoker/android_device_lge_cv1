@@ -19,7 +19,6 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 # $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/halium.mk)
 
-
 # Inherit from cv1 device
 $(call inherit-product, device/lge/cv1/device.mk)
 
