@@ -37,5 +37,5 @@ PRODUCT_MANUFACTURER := lge
 PRODUCT_GMS_CLIENTID_BASE := android-lge
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    BUILD_FINGERPRINT="T-Mobile/cv1_tmo_us/cv1:7.1.2/NRD90U/171071514d722:user/release-keys" \
-    PRIVATE_BUILD_DESC="cv1_tmo_us-user 7.1.2 NRD90U 171071514d722 release-keys"
+    BUILD_FINGERPRINT="lge/cv1_lao_com/cv1:7.1.2/N2G47H/1827621407057:user/release-keys" \
+    PRIVATE_BUILD_DESC="cv1_lao_com-user 7.1.2 N2G47H 1827621407057 release-keys"
