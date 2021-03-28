@@ -70,15 +70,14 @@ PRODUCT_COPY_FILES += \
 
 # UBPorts config files
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/system/halium/70-tenshi.rules:system/halium/lib/udev/rules.d/70-android.rules \
-    $(LOCAL_PATH)/system/halium/tenshi.conf:system/halium/etc/ubuntu-touch-session.d/tenshi.conf \
+    $(LOCAL_PATH)/system/halium/cv1.conf:system/halium/etc/ubuntu-touch-session.d/cv1.conf \
     $(LOCAL_PATH)/system/halium/fix_pulseaudio.sh:system/halium/usr/share/fixup/fix_pulseaudio.sh \
     $(LOCAL_PATH)/system/halium/fix_prop.sh:system/halium/usr/share/fixup/fix_prop.sh \
     $(LOCAL_PATH)/system/halium/libs/libizat_core.so:system/halium/lib/libizat_core.so \
     $(LOCAL_PATH)/system/halium/libs/libOmxVdec.so:system/halium/lib/libOmxVdec.so \
     $(LOCAL_PATH)/system/halium/switch:system/halium/usr/share/h2w/switch \
-    $(LOCAL_PATH)/system/halium/droid-hcismd-up.sh:system/halium/usr/share/bluetooth-touch/tenshi \
-    $(LOCAL_PATH)/system/halium/wifi_up.sh:system/halium/usr/share/bluetooth-touch/wifi_tenshi \
+    $(LOCAL_PATH)/system/halium/droid-hcismd-up.sh:system/halium/usr/share/bluetooth-touch/cv1 \
+    $(LOCAL_PATH)/system/halium/wifi_up.sh:system/halium/usr/share/bluetooth-touch/wifi_cv1 \
     $(LOCAL_PATH)/system/halium/apparmor.d/local/usr.bin.media-hub-server:system/halium/etc/apparmor.d/local/usr.bin.media-hub-server \
     $(LOCAL_PATH)/system/halium/apparmor.d/abstractions/base:system/halium/etc/apparmor.d/abstractions/base \
     $(LOCAL_PATH)/system/halium/ofono.override:system/halium/etc/init/ofono.override \
